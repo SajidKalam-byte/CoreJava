@@ -1,34 +1,67 @@
-import java.util.Scanner;
-class code
-{
-	void pow(int base, int exponent)
-	{
-		long result = 1;
+// import java.util.Scanner;
+// class code
+// {
+// 	void pow(int base, int exponent)
+// 	{
+// 		long result = 1;
 
-   		 while (exponent != 0) 
-		{
-      			result *= base;
-      			--exponent;
-    		}
+//    		 while (exponent != 0) 
+// 		{
+//       			result *= base;
+//       			--exponent;
+//     		}
 
-    		System.out.println("Answer = " + result);
-	}
-}
+//     		System.out.println("Answer = " + result);
+// 	}
+// }
 
-class power {
-  public static void main(String[] args) 
-{
+// class power {
+//   public static void main(String[] args) 
+// {
 	
-    int base, exponent;
-	Scanner sc = new Scanner(System.in);
-	System.out.println("Enter the base ");
-	base = sc.nextInt();
-	System.out.println("Enter the exponent ");
-	exponent = sc.nextInt();
+//     int base, exponent;
+// 	Scanner sc = new Scanner(System.in);
+// 	System.out.println("Enter the base ");
+// 	base = sc.nextInt();
+// 	System.out.println("Enter the exponent ");
+// 	exponent = sc.nextInt();
 	
-	code obj = new code();
-	obj.pow(base, exponent);	
+// 	code obj = new code();
+// 	obj.pow(base, exponent);	
 	
     
-  }
-}
+//   }
+// import java.util.Scanner;
+// class code
+// {
+// 	void pow(int base, int exponent)
+// 	{
+// 		long result = 1;
+
+//    		 while (exponent != 0) 
+// 		{
+//       			result *= base;
+//       			--exponent;
+//     		}
+
+//     		System.out.println("Answer = " + result);
+// 	}
+// }
+
+// class power {
+//   public static void main(String[] args) 
+// {
+	
+//     int base, exponent;
+// 	Scanner sc = new Scanner(System.in);
+// 	System.out.println("Enter the base ");
+// 	base = sc.nextInt();
+// 	System.out.println("Enter the exponent ");
+// 	exponent = sc.nextInt();
+	
+// 	code obj = new code();
+// 	obj.pow(base, exponent);	
+	
+    
+//   }
+// }
